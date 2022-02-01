@@ -1,0 +1,21 @@
+.main_body {
+    position: fixed;
+    width: 100%;
+    top: 40%;
+}
+
+button {
+    position: relative;
+    width: 30%;
+    left: 12%;
+    margin-top: 40%;
+}
+
+.main_body .btn-primary {
+    margin-left: 15%;
+}
+
+.main_body .btn {
+    font-weight: bold;
+    font-size: 200%;
+}

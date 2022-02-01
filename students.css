@@ -1,0 +1,212 @@
+/*for smart phone screens*/
+
+@media only screen and (min-width: 0px) and (max-width:600px) {}
+
+
+/*for table and mini ipads screens */
+
+@media only screen and (min-width: 601px) and (max-width:1000px) {}
+
+
+/*for laptops and big screens*/
+
+@media only screen and (min-width: 1001px) {
+    /* The header bar */
+    .header {
+        width: 100%;
+        background-color: rgb(24, 10, 2);
+        position: fixed;
+        top: 0px;
+        left: 0;
+        z-index: 1;
+        height: 5%;
+        padding-top: 0.5%;
+    }
+    .header div {
+        float: left;
+        font-weight: bold;
+        font-size: 200%;
+        color: white;
+        position: fixed;
+        top: 0.2%;
+        left: 1%;
+    }
+    .header button {
+        color: white;
+        background-color: rgb(2, 2, 43);
+        width: 10%;
+    }
+    .header span {
+        margin-left: 5%;
+    }
+    .header button:hover {
+        background-color: green;
+        color: white;
+        font-weight: bold;
+    }
+    /* New student form */
+    .new_student {
+        position: fixed;
+        width: 40%;
+        height: 90%;
+        left: 30%;
+        border-radius: 6%;
+        top: 8%;
+        padding: 3%;
+        overflow-x: auto;
+        background-color: rgba(3, 22, 46, 0.418);
+        display: none;
+        z-index: 1;
+    }
+    .new_student img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 4%;
+    }
+    .new_student label {
+        cursor: pointer;
+    }
+     ::-webkit-scrollbar {
+        width: 5px;
+        border-radius: 8px;
+    }
+     ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+     ::-webkit-scrollbar-thumb {
+        background: rgba(245, 1, 1, 0.336);
+    }
+     ::-webkit-scrollbar-thumb:hover {
+        background: rgba(245, 1, 1, 0.986);
+    }
+    .passport {
+        position: relative;
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 3%;
+        background-color: rgba(172, 255, 47, 0.267);
+    }
+    .photo {
+        position: relative;
+        margin-top: 5%;
+        width: 100%;
+        height: 20%;
+    }
+    .photo .imgdiv {
+        display: inline-block;
+        position: relative;
+        width: 30%;
+        margin-left: 39%;
+        margin-top: 0%;
+        background-color: rgba(5, 5, 90, 0.158);
+        border-radius: 5%;
+    }
+    .photo .inputholder {
+        display: inline-block;
+        position: relative;
+        width: 30%;
+        min-height: 150px;
+        vertical-align: top;
+    }
+    .inputholder .inputwrapper {
+        margin-top: 40%;
+    }
+    .new_student .btn {
+        width: 40%;
+        margin-top: 3%;
+    }
+    .new_student .btn-clear {
+        margin-left: 19%;
+    }
+    .new_student input {
+        margin-bottom: 2%;
+    }
+    /* ---------------------------------------------------------------Students view  */
+    .all_students {
+        width: 100%;
+        position: fixed;
+        top: 5.5%;
+        height: 94%;
+        left: 0;
+    }
+    .all_students table {
+        align-items: center;
+    }
+    .all_students .tabledp {
+        width: 60px;
+        height: 60px;
+        margin-right: 2px;
+        border-radius: 50%;
+    }
+    table button {
+        background: transparent;
+        border: none;
+    }
+    /* ---------------------------------------------------------------full dp */
+    .fulldp {
+        position: fixed;
+        top: 8%;
+        width: 30%;
+        margin-left: 35%;
+        height: auto;
+        display: none;
+    }
+    .fulldp img {
+        position: relative;
+        width: 100%;
+        border-radius: 5%;
+    }
+    /* ----------------------------------------------------------------media edit */
+    .mediaEditor {
+        position: fixed;
+        width: 100%;
+        top: 6%;
+        background-color: rgba(2, 2, 43, 0.747);
+        height: 94%;
+        color: white;
+        display: none;
+    }
+    .imcard {
+        border: 1px solid;
+        border-radius: 10px;
+        width: 30%;
+        display: inline-block;
+        height: 70%;
+        align-items: center;
+        margin-left: 2.3%;
+        margin-top: 5%;
+    }
+    .imcard .setImage {
+        position: relative;
+        width: 100%;
+        height: 80%;
+        margin-bottom: 3%;
+        margin-top: 1%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .mediaEditor label {
+        cursor: pointer;
+        margin-left: 1%;
+    }
+    .setImage img {
+        position: relative;
+        height: 100%;
+        max-width: 100%;
+    }
+    .imcard button {
+        margin-left: 40%;
+        width: 20%;
+    }
+    .mediaEditor .close-btn {
+        color: red;
+        font-weight: bold;
+        background: transparent;
+        border: none;
+        float: right;
+        right: 4%;
+        font-size: 200%;
+    }
+}
